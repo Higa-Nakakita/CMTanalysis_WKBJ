@@ -1,1 +1,160 @@
 # CMTanalysis_WKBJ
+このコード群について．
+表面波WKBJ法を用いた非線形CMT解析コード群．コード群をこのままダウンロードして，サーバーapolloで実行すれば比嘉の修論3.3の観測波形との比較まで実行可能です．
+Waveformsというディレクトリの存在が仮定されているので，実行前にこれを実行ディレクトリに作成する必要があります．
+固有関数ファイルの読み込み時，"/work94A/higa/minos_Eigenfunc"と"/work/higa/calc_eig_3D"にアクセスして該当ファイルを参照する仕様になっています．
+また観測波形の読み込み時，"/nfsmnt/work95A/higa/Fnet_data/"以下にあるSACファイルを参照します（詳しくはinputファイルobsdata_pathを参照）．
+上記を読み込めないとエラーとなり止まってしまいますので要注意です．
+また，インバージョンを行う際は，main.fのsubroutine forwardにあるstopをコメントアウトの上，forward_model.fのモデルパラメータの代入部分およびコメントアウトして実行してください．なお解析時は，forward_model.fでのw_seisによる波形出力をコメントアウトしないと大量に波形書き出しが行われるので注意してください．
+各種inputファイルは相対パスで指定されるので，適宜書き換えてください．　（2026 3/23 比嘉）
+
+
+CMT解析のプログラム概要
+表面波WKBJ定式を波形計算に使用したNeighborhood Algorithm (Sambridge, 1999)による完全非線形なCMT解析のプログラム。固有関数・固有パラメータの計算にはminosを用いる。CMT解析の各種条件（内部構造モデルの変更，等方成分の有無、時間パラメータ，目的関数の種類，モードスキップ）の調整がinputファイルを通じて可能。波線項でローカルモードを線積分することで水平不均質性を反映。プログラムは主にFortran77。最適化の部分は全てNAに委ねていて、Forward計算のコードがオリジナル。
+
+各ファイルの説明
+Makefile
+コンパイルに必要。gfortranコンパイラーを使用する。
+
+Inputファイル (ASCII)
+swfi.in
+解析条件の設定用。時間窓の切り出し方、時間窓の数、使用する帯域、内部構造モデルの変更，等方成分の有無、時間パラメータ，目的関数の種類，モードスキップなどを設定．
+ZRT_ratio：ある観測点における３成分波形について，成分ごとに重みをかけ，振幅が小さい波にもフィッティングさせる（例えばラブ波に引っ張られないようにする）．重みはある観測点の最大振幅と各成分の振幅比から計算．ただし，ノードやノイズの影響を受けて結果が不安定化するので，ZRT_ratioはOFFにすべき．
+geometrical attenuation：幾何減衰に応じた振幅補正をミスフィットに反映し，遠地の観測点の重みを大きくさせる．ノイズの影響を受けやすいので，これもOFFにした方が良い感はある．
+Index of Inversion flow：0を選択するとセントロイドを求めないMT解析ができる．
+trM=0:0にするとISO成分なしの解析ができる．
+origT:0:破壊開始時間は固定し，half-durationのみ推定．1:セントロイド時間のみ推定（half-durationはM0から換算）2:どちらも推定（逆相関するので不安定化する）
+Cut computational cost: 計算したい最短周期から，計算するangular orderの下限を自動設定．1(ON)にして20と設定すると周期20sに対応するangular orderまでを計算．
+mode skip：震源項計算時のモードスキップ数．モードスキップしない場合は1を入力．20飛ばしくらいでも25mHzくらいなら精度良く計算可能．
+
+obsdata_path
+SAC波形までのパス。Z,R,Tの順序で並んでいる必要がある。
+
+rcv_coordinates
+観測点名、緯度、経度の３列からなるファイル。obsdata_pathに記されている観測点の順に対応して並んでいる必要がある。（そうでないと観測波形と観測点が対応しなくなる。）
+
+model_parameter
+12変数（T0,lat,lon,dep,Mrr,Mtt,Mpp,Mrt,Mrp,Mtp,M0,halfd）の探索範囲が格納されている。Swfi.inで条件を指定することで、パラメータの読み込み方が自動で変更される。
+
+
+Inputファイル（bin）
+観測点の固有関数（PREM)
+/eigen_pathav_modi2_S
+/eigen_pathav_T
+固有パラメータファイル。モード（モードブランチ数、Angular order）とそれに対する固有パラメータ（固有周波数、非弾性減衰パラメータQ、群速度Cg）が格納されている。観測点については地表の固有関数値が格納されている。
+
+震源の固有関数
+source_eif_modi_kai.bin
+深さの情報がある震源の固有関数ファイル。注意：固有関数の極性は震源と観測点で揃っていなければならない。ストンレーモード除去の際に極性が反転する場合がある。その場合はProg3のコードで観測点の固有関数の極性に合わせる。Angular orderをx軸にしてy軸を固有関数として描画するとわかりやすい。
+
+ローカルモードの固有パラメータファイル
+eigen_pathav_S/T（各緯度経度に対応するディレクトリに保存されている）
+
+
+プログラム
+main.f
+Program main
+Na_ky.fのプログラムNAを呼び出すだけ。NAはuser_init, forward, writemodelsの3つのSubroutineを呼び出す。
+
+Subroutine user_init
+NAの必須Subroutin。インバージョンの前段階のデータ処理を行う。プログラムの中身としてはUser_init_cmtinv, read_paramの2つのSubroutineを呼び出すだけ。User_init_cmtではいくつかのSubroutineを通じて、観測波形の読み込み、波形処理（時間窓の切り出し、テーパー処理、フィルター処理）、観測波形の書き出し、固有関数の読み込み、WKBJの観測点項と波線項の計算が行われる。
+
+Subroutine forward
+NAの必須Subroutine。フォワード計算と目的関数の計算を行う。中身としてはforward_modellingとmisfit_funcの2つのSubroutineを呼び出すだけ。
+
+Subroutine writemodels
+NAの必須Subroutine。NAによる探索で生成された全モデルと対応するミスフィットの情報を結果出力用のファイルall_params.datに全て書き出す。また最適解に対する理論波形をSAC波形として書き出す。
+
+User_init_cmtinv.f
+Subroutine read_param
+探索変数と探索範囲が格納されたファイルmodel_parameterを読み込み、パラメータ空間を設定する。Swfi.inにより事前に与えられた条件に基づいて読み込み方が変わる。
+
+Subroutine user_init_cmtinv
+Input fileの読み込み、波形データ処理、固有関数ファイルの読み込み、固定項の計算などを行う。長いコードなので4つの段階に分かれている。
+1st Step:　パスなどの読み込み。
+まずRcv_coorinatesから観測点名、緯度と経度を配列に格納し、obsdata_pathから観測波形へのパスを読み込む．次にsrc_coordinatesから震源位置を取得する。緯度は地理座標系から地心座標系へ変換される。各波線の震央距離と方位角が計算される。その後にswfi.inを読み込む。
+2nd Step:　swfi.inの読み込み。
+Swfi.inから各種解析条件を読み込む。WKBJの係数dtmpをここで計算する。そしてsubroutine user_init_localmodesを呼び出す．波線上に存在する内部構造にアクセスし，ローカルモードの固有パラメータを読み込む．
+3rd Step:　波形データ処理。
+各観測点の波形切り出しを行う。オブジェクトファイルreaddataを用いて波形のポイント数、サンプリング間隔などを取得する。取得したサンプリング間隔などからナイキスト周波数、周波数領域におけるサンプリング間隔を計算する。観測波形を群速度で切り出し、Subroutine cos_tapでテーパーをかけて、Subroutine bandpass_filでフィルターをかける。その後、処理済みの各時間窓の観測波形をSubroutine w_seisで書き出す。3rd Stepの最後にこれまでの諸々の情報が格納された確認用のASCIIファイルuserinit_conf.txtが出力される。
+4th Step:固有関数読み込み，固定項（観測点，波線項）を計算
+Subroutine rd_eigen_minosを用いた固有関数ファイルの読み込み、Subroutine fixterm_calcを用いた固定項の計算、Subroutine rd_eif_srcを用いた震源の固有関数の読み込みが行われる。最後に計算する周波数領域の上限下限を設定し直す（観測点ごとに範囲がバラバラだとまずい）
+
+Subroutine user_init_localmodes
+事前に作成されているtxtファイルdiv_del_infoを読み込み，ローカルモードを読み込むための絶対パスを配列に格納．もしファイルが存在しない場合はPREMを読み込む．また線積分の際に必要となるローカルモードの距離情報も配列に格納．
+
+
+read_eigen_minos.f
+Subroutine rd_eigend_minos
+引数は観測点の通し番号kと波形成分を表すiicompをとる。iicompからSpheroidal mode かToroidal modeかを判定する。ただし主要な作業は2つのsubtroutine read_eigenとdetrem_lrangeが行う。
+Subroutine read_eigen
+各項ごとの固有パラメータ（モードに対する固有周波数、非弾性減衰パラメータ、群速度が固有パラメータ）が格納用の配列eig_para(modeltype,cm,n,l,w,Q,Cg,kk)に読み込まれる。
+Subroutine determ_lrange
+項ごとにangular orderの上限・下限が異なるので、計算に使用するAngular orderの範囲を決定する。各項のAngular orderの下限の最大値を下限lbeg(n,STmode,k)に格納し、上限の最小値をlend(n,ST,mode)に格納する。こうすることで、Angular orderの食い違いを防ぐことができる。各モードの固有周波数の最小値と最大値はそれぞれAngular orderの最小値と最大値に対応するので、周波数の上限下限を配列eig_paraから直接出せる。周波数の逆数をとって固有周期を出す。以上の結果を標準出力で出す。出力は各モードで理論計算可能な周期帯を示す。
+Subroutine rd_eif_src
+震源の固有関数をbinファイルから読み取る。固有関数の読み取り時は深さに対応するレイヤーも同時に読み取られる。すなわちU,dU,V,dV,W,dW(n,l,z)が読み込まれる。
+
+
+wkbj_fixcalc.f
+Subroutine fixterm_calc
+引数は成分と観測点の通し番号。WKBJ定式の波線項と観測点項を計算する。各モードブランチについてlmin~lmaxにおける固有パラメータの曲線（観測点および波線の固有周波数、波線のQとCg）と観測点の固有関数をAngurar orderに対する1次元配列として格納。Angular orderのループ終了時、それぞれの固有パラメータは各モードブランチにおけるAngular orderの関数として扱える。また各モードについてlbegとlendから計算周波数の下限と上限を算出。次に周波数jのループに入る。離散周波数は通し番号jを用いてf_j=df*(j-1)で与えられる。ここから周波数領域における理論波形（複素スペクトル）を計算していく。固定項の複素スペクトルは配列zAexp_fix(n,j,STmode,k)に格納される。周波数が先ほど計算の範囲外の場合にはゼロ埋め。範囲内ではjjtmpで通し番号が割り当て直され、j_frq(n,STmode,k)=jjtmpとして格納される。固定項はDahlen&Tromp(1998)の通り、zAexp_fix = zAexp_rcv * zAexp_pathとして計算される。各項の計算は関数calc_rcvtermとcalc_pathtermで計算される。omgtmpを関数に代入することで周波数に対する値が返ってくる。観測点項の計算ではAngular orderに対する固有周波数と固有関数が必要となるがcommon文で関数に直接共有される。波線項の場合は固有パラメータだが同様に共有される。
+
+Function calc_rcvterm
+主な引数は周波数。周波数に応じて観測点の固有関数がspline補完され、その周波数に対する固有関数値が返ってくる。上下動のUは実数、RadialのVはマイナスつけて純虚数、Toroidalは純虚数。ここでToroidalにマイナスをつけるとTopidal波形の極性が反転する。（実はこの処理は最後でやっている）
+Fuction calc_pathterm
+主な引数は周波数。各波線の震央距離del_tmpはcommon文で共有される。自然数のAngular orderを周波数についてスプライン補完し連続な実数のAugular orderに直して、ここから波数を算出。つまり与えられた周波数から波数が計算される。Q、Cgも同様に周波数についてスプライン補完。これである周波数に対する波線項の値を計算できる。
+
+
+以上のプログラムまではuser_initの段階で呼び出される。以下からforward計算で呼びだされる。
+
+forward_model.f
+Subroutine forward_modelling
+引数はNAのサンプリング過程で得られるパラメータベクトルとパラメータ空間の次元数とイタレーション回数。内部で観測点についてループを回しSubroutine wkbj_pertbがその度に呼び出される。イタレーションごとの理論波形計算はwkbj_pertbが行う。
+Subroutine wkbj_pertb
+まず解析条件に応じて渡されるパラメータベクトルが異なるので、それを適切にパラメータベクトル配列rmodelに組み込むためのif文処理が行われる。拘束アリの場合は、Mppが従属変数となる。Halfdが従属の場合はGCMT採用の経験式に基づき地震モーメントからhalfdを算出する関数calc_halfdを用いて計算される。Timeshiftが固定の時はd_t=0となる。セントロイド水平位置の変化についてはSubroutine calc_newlocaが使用される。震源項の更新についてはSubroutine srcterm_renewが使用される。震源項の計算が終わったら、モードブランチと周波数のループに入る。離散周波数にはj_frqが使われる。ただし各項の複素スペクトル配列のインデックスにはjが使われる。振幅項と位相項の摂動と震源項とを掛け合わせたpertb_allを固定項のzAexp_fixに掛け合わせて、摂動後の理論スペクトルzAexp_frq(n,STmode,j)が計算される。モードブランチのループまで抜けた後に、まずモードブランチについて和をとる（この時点でモードの情報は潰れ、複素スペクトルは周波数だけの関数となる）。そしてその複素スペクトルを逆フーリエ変換して時間領域の波形にする。Corrcet_iftで地震モーメントを振幅に反映。T0_buffer分とd_tをずらした上で時間領域の波形をsyntmpに格納。最後にUserinitと完全に同じ波形処理を施した上で、synthetic_data配列に格納。これに対する従属変数も含む全パラメータをall_paramsに格納。
+
+Subroutine calc_newloca
+NAから返ってくる位置のパラメータは緯度経度深さの摂動である。Userinitの時のように地理座標系を地心座標系に変換してazdelを用いて震央距離の摂動と新しい方位角を算出する。これらの単位はRadianである。この関数は新しい深さと方位角および震央距離の摂動を返す。
+Subroutine calc_halfd
+GCMTが使用している地震モーメントの1/3乗に適当な係数をかけてhalfdを算出する経験式。
+srcterm_renew.f
+Subroutine srcterm_renew
+WKBJ定式における震源項の更新。引数はパラメータベクトル、新しい深さ、新しい方位角、新しい震央距離、STmode、観測点番号kである。まず各モードについて、固有関数を深さに対する1次元の関数とする。その次に秋間補完を行い、新しい深さに対する固有関数値を取得。Algular orderのdo loopを通じて震源の固有関数と固有周波数omg_srcとAngular orderをntmpの1次元配列にすることができる。Angular orderのループを抜けると周波数のループに入る。このループで使われる配列omgprtは固定項計算時に作られた周波数配列であり、ここから周波数が取られる。震源の波数は波線の場合と同じく、自然数のAngular orderを周波数でspline補完して実数のAngular orderとして直接計算される。Halfdurationの効果は地震学(2015)p182(13.28)に従い三角型STFのフーリエスペクトルdexp_MTをデルタ関数な震源項zAtmpにかけて補正する。あとは計算する地震波の単位に合わせるためにiωをかけてやって合わせる。
+
+Subroutine reflect_M0
+吉澤先生の講義資料通りの地震モーメント計算。
+Subroutine calc_radpattern
+震源項の方位角ごとのパワーを計算し、方位角の関数としてパワーを格納しているだけ。デバック用。
+misfitfunc.f
+Subroutine misfit_func
+L?ノルムで観測波形と理論波形のミスフィットを計算。時間窓ごとに異なる重みを適用可能。?はswfi.inで指定。
+
+その他諸々の計算プログラム
+bwfilter.f　バンドパスフィルター関係。
+Subtoutine bandpass_fil
+Subroutine bwfilt
+Subroutine rekurs
+Subroutine bpcoeff
+Function gaus_filter
+
+subcalc.f　方位角、震央距離計算、フーリ変換関係。
+Subroutine azdel
+Function spline
+Subroutine fast
+Subroutine changed_fast
+Function lofw
+
+Subcalc_akima.f　秋間補完。（https://slpr.sakura.ne.jp/qp/akima-interpolation/）
+Subroutine akima1p
+
+Subsphere_tmp.f　地理座標系と地心座標系変換など。
+Function geocen
+Function geograph
+Function geocen_deg
+Function geograph_deg
+
+write_seis.f　SAC波形の出力。
+Subroutine w_seis
+Suboutine w_seis_full
+
+
