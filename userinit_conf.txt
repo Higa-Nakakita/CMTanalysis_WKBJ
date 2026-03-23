@@ -1,0 +1,1954 @@
+ based on Right-hand rule (Dahlen&Tromp p365)
+ conversion Right -> Left will be applied (at syntmp)
+
+ initial source:    38.7000008       142.179993       43.2999992    
+ == rcv info (rcv:ABU num:           1 ) ===
+ rcv:    34.8600006       135.570007    
+ epicental distance(km):    727.568604    
+ azimuth(deg):   236.171341     baz(deg):   52.2256279    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   279.000000    
+  t_begin ~ t_end (sec)
+   386.000000     --   665.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   279.000000    
+  t_begin ~ t_end (sec)
+   386.000000     --   665.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   279.000000    
+  t_begin ~ t_end (sec)
+   386.000000     --   665.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   279.000000    
+  t_begin ~ t_end (sec)
+   386.000000     --   665.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:ADM num:           2 ) ===
+ rcv:    37.9000015       138.429993    
+ epicental distance(km):    339.859070    
+ azimuth(deg):   256.015106     baz(deg):   73.6999817    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   131.000000    
+  t_begin ~ t_end (sec)
+   340.000000     --   471.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   131.000000    
+  t_begin ~ t_end (sec)
+   340.000000     --   471.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   131.000000    
+  t_begin ~ t_end (sec)
+   340.000000     --   471.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   131.000000    
+  t_begin ~ t_end (sec)
+   340.000000     --   471.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:HID num:           3 ) ===
+ rcv:    42.8199997       142.410004    
+ epicental distance(km):    458.071381    
+ azimuth(deg):   2.35633087     baz(deg):   182.506027    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   176.000000    
+  t_begin ~ t_end (sec)
+   354.000000     --   530.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   176.000000    
+  t_begin ~ t_end (sec)
+   354.000000     --   530.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   176.000000    
+  t_begin ~ t_end (sec)
+   354.000000     --   530.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   176.000000    
+  t_begin ~ t_end (sec)
+   354.000000     --   530.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:HJO num:           4 ) ===
+ rcv:    33.0999985       139.800003    
+ epicental distance(km):    657.403137    
+ azimuth(deg):   199.779907     baz(deg):   18.3886623    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   252.000000    
+  t_begin ~ t_end (sec)
+   377.000000     --   629.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   252.000000    
+  t_begin ~ t_end (sec)
+   377.000000     --   629.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   252.000000    
+  t_begin ~ t_end (sec)
+   377.000000     --   629.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   252.000000    
+  t_begin ~ t_end (sec)
+   377.000000     --   629.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:HSS num:           5 ) ===
+ rcv:    42.9599991       141.220001    
+ epicental distance(km):    480.091370    
+ azimuth(deg):   350.597198     baz(deg):   169.971512    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   185.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   541.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   185.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   541.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   185.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   541.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   185.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   541.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:IGK num:           6 ) ===
+ rcv:    24.4099998       124.169998    
+ epicental distance(km):    2322.40210    
+ azimuth(deg):   232.244797     baz(deg):   42.7346878    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   889.000000    
+  t_begin ~ t_end (sec)
+   573.000000     --   1462.00000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   889.000000    
+  t_begin ~ t_end (sec)
+   573.000000     --   1462.00000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   889.000000    
+  t_begin ~ t_end (sec)
+   573.000000     --   1462.00000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   889.000000    
+  t_begin ~ t_end (sec)
+   573.000000     --   1462.00000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:INN num:           7 ) ===
+ rcv:    33.4700012       131.300003    
+ epicental distance(km):    1137.72009    
+ azimuth(deg):   242.649277     baz(deg):   56.2498894    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   436.000000    
+  t_begin ~ t_end (sec)
+   434.000000     --   870.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   436.000000    
+  t_begin ~ t_end (sec)
+   434.000000     --   870.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   436.000000    
+  t_begin ~ t_end (sec)
+   434.000000     --   870.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   436.000000    
+  t_begin ~ t_end (sec)
+   434.000000     --   870.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:ISI num:           8 ) ===
+ rcv:    34.0600014       134.449997    
+ epicental distance(km):    863.323669    
+ azimuth(deg):   235.748123     baz(deg):   51.1748199    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   331.000000    
+  t_begin ~ t_end (sec)
+   402.000000     --   733.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   331.000000    
+  t_begin ~ t_end (sec)
+   402.000000     --   733.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   331.000000    
+  t_begin ~ t_end (sec)
+   402.000000     --   733.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   331.000000    
+  t_begin ~ t_end (sec)
+   402.000000     --   733.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:IZH num:           9 ) ===
+ rcv:    34.1300011       129.199997    
+ epicental distance(km):    1268.34558    
+ azimuth(deg):   250.406677     baz(deg):   62.7072868    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   486.000000    
+  t_begin ~ t_end (sec)
+   449.000000     --   935.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   486.000000    
+  t_begin ~ t_end (sec)
+   449.000000     --   935.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   486.000000    
+  t_begin ~ t_end (sec)
+   449.000000     --   935.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   486.000000    
+  t_begin ~ t_end (sec)
+   449.000000     --   935.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:JIZ num:          10 ) ===
+ rcv:    34.9199982       138.990005    
+ epicental distance(km):    506.897186    
+ azimuth(deg):   215.123932     baz(deg):   33.2194519    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   195.000000    
+  t_begin ~ t_end (sec)
+   360.000000     --   555.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   195.000000    
+  t_begin ~ t_end (sec)
+   360.000000     --   555.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   195.000000    
+  t_begin ~ t_end (sec)
+   360.000000     --   555.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   195.000000    
+  t_begin ~ t_end (sec)
+   360.000000     --   555.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:KMT num:          11 ) ===
+ rcv:    33.6699982       135.479996    
+ epicental distance(km):    821.008118    
+ azimuth(deg):   229.211487     baz(deg):   45.2663612    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   315.000000    
+  t_begin ~ t_end (sec)
+   397.000000     --   712.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   315.000000    
+  t_begin ~ t_end (sec)
+   397.000000     --   712.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   315.000000    
+  t_begin ~ t_end (sec)
+   397.000000     --   712.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   315.000000    
+  t_begin ~ t_end (sec)
+   397.000000     --   712.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:KMU num:          12 ) ===
+ rcv:    42.2299995       142.960007    
+ epicental distance(km):    397.633331    
+ azimuth(deg):   9.32864761     baz(deg):   189.833145    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   153.000000    
+  t_begin ~ t_end (sec)
+   347.000000     --   500.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   153.000000    
+  t_begin ~ t_end (sec)
+   347.000000     --   500.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   153.000000    
+  t_begin ~ t_end (sec)
+   347.000000     --   500.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   153.000000    
+  t_begin ~ t_end (sec)
+   347.000000     --   500.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:KNM num:          13 ) ===
+ rcv:    35.7099991       137.179993    
+ epicental distance(km):    554.093811    
+ azimuth(deg):   234.744781     baz(deg):   51.7320671    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   213.000000    
+  t_begin ~ t_end (sec)
+   365.000000     --   578.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   213.000000    
+  t_begin ~ t_end (sec)
+   365.000000     --   578.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   213.000000    
+  t_begin ~ t_end (sec)
+   365.000000     --   578.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   213.000000    
+  t_begin ~ t_end (sec)
+   365.000000     --   578.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:KNP num:          14 ) ===
+ rcv:    43.7599983       143.699997    
+ epicental distance(km):    576.382202    
+ azimuth(deg):   12.2825260     baz(deg):   193.281555    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   221.000000    
+  t_begin ~ t_end (sec)
+   368.000000     --   589.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   221.000000    
+  t_begin ~ t_end (sec)
+   368.000000     --   589.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   221.000000    
+  t_begin ~ t_end (sec)
+   368.000000     --   589.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   221.000000    
+  t_begin ~ t_end (sec)
+   368.000000     --   589.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:KNY num:          15 ) ===
+ rcv:    34.8699989       138.059998    
+ epicental distance(km):    561.949585    
+ azimuth(deg):   222.114853     baz(deg):   39.6562843    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   216.000000    
+  t_begin ~ t_end (sec)
+   366.000000     --   582.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   216.000000    
+  t_begin ~ t_end (sec)
+   366.000000     --   582.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   216.000000    
+  t_begin ~ t_end (sec)
+   366.000000     --   582.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   216.000000    
+  t_begin ~ t_end (sec)
+   366.000000     --   582.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:KSR num:          16 ) ===
+ rcv:    42.9799995       144.490005    
+ epicental distance(km):    513.774597    
+ azimuth(deg):   21.5427456     baz(deg):   203.048752    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   197.000000    
+  t_begin ~ t_end (sec)
+   360.000000     --   557.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   197.000000    
+  t_begin ~ t_end (sec)
+   360.000000     --   557.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   197.000000    
+  t_begin ~ t_end (sec)
+   360.000000     --   557.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   197.000000    
+  t_begin ~ t_end (sec)
+   360.000000     --   557.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:KYK num:          17 ) ===
+ rcv:    30.3799992       130.410004    
+ epicental distance(km):    1418.70972    
+ azimuth(deg):   232.956772     baz(deg):   46.2800636    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   543.000000    
+  t_begin ~ t_end (sec)
+   467.000000     --   1010.00000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   543.000000    
+  t_begin ~ t_end (sec)
+   467.000000     --   1010.00000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   543.000000    
+  t_begin ~ t_end (sec)
+   467.000000     --   1010.00000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   543.000000    
+  t_begin ~ t_end (sec)
+   467.000000     --   1010.00000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:NKG num:          18 ) ===
+ rcv:    44.7999992       142.080002    
+ epicental distance(km):    677.810303    
+ azimuth(deg):   359.329559     baz(deg):   179.263107    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   260.000000    
+  t_begin ~ t_end (sec)
+   380.000000     --   640.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   260.000000    
+  t_begin ~ t_end (sec)
+   380.000000     --   640.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   260.000000    
+  t_begin ~ t_end (sec)
+   380.000000     --   640.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   260.000000    
+  t_begin ~ t_end (sec)
+   380.000000     --   640.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:NMR num:          19 ) ===
+ rcv:    43.3600006       145.729996    
+ epicental distance(km):    597.496460    
+ azimuth(deg):   28.8325710     baz(deg):   211.156448    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   229.000000    
+  t_begin ~ t_end (sec)
+   370.000000     --   599.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   229.000000    
+  t_begin ~ t_end (sec)
+   370.000000     --   599.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   229.000000    
+  t_begin ~ t_end (sec)
+   370.000000     --   599.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   229.000000    
+  t_begin ~ t_end (sec)
+   370.000000     --   599.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:NOK num:          20 ) ===
+ rcv:    34.1599998       135.350006    
+ epicental distance(km):    792.658081    
+ azimuth(deg):   232.623093     baz(deg):   48.5784607    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   304.000000    
+  t_begin ~ t_end (sec)
+   393.000000     --   697.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   304.000000    
+  t_begin ~ t_end (sec)
+   393.000000     --   697.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   304.000000    
+  t_begin ~ t_end (sec)
+   393.000000     --   697.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   304.000000    
+  t_begin ~ t_end (sec)
+   393.000000     --   697.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:NOP num:          21 ) ===
+ rcv:    44.3199997       142.940002    
+ epicental distance(km):    627.601440    
+ azimuth(deg):   5.55527306     baz(deg):   186.057693    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   241.000000    
+  t_begin ~ t_end (sec)
+   374.000000     --   615.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   241.000000    
+  t_begin ~ t_end (sec)
+   374.000000     --   615.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   241.000000    
+  t_begin ~ t_end (sec)
+   374.000000     --   615.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   241.000000    
+  t_begin ~ t_end (sec)
+   374.000000     --   615.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:NRW num:          22 ) ===
+ rcv:    34.7599983       133.529999    
+ epicental distance(km):    887.280762    
+ azimuth(deg):   243.127090     baz(deg):   57.9669075    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   340.000000    
+  t_begin ~ t_end (sec)
+   404.000000     --   744.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   340.000000    
+  t_begin ~ t_end (sec)
+   404.000000     --   744.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   340.000000    
+  t_begin ~ t_end (sec)
+   404.000000     --   744.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   340.000000    
+  t_begin ~ t_end (sec)
+   404.000000     --   744.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:NSK num:          23 ) ===
+ rcv:    34.3400002       132.000000    
+ epicental distance(km):    1031.39246    
+ azimuth(deg):   245.139954     baz(deg):   59.0933342    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   395.000000    
+  t_begin ~ t_end (sec)
+   421.000000     --   816.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   395.000000    
+  t_begin ~ t_end (sec)
+   421.000000     --   816.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   395.000000    
+  t_begin ~ t_end (sec)
+   421.000000     --   816.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   395.000000    
+  t_begin ~ t_end (sec)
+   421.000000     --   816.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:ONS num:          24 ) ===
+ rcv:    36.1500015       138.979996    
+ epicental distance(km):    400.393707    
+ azimuth(deg):   226.001877     baz(deg):   44.0645866    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   154.000000    
+  t_begin ~ t_end (sec)
+   347.000000     --   501.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   154.000000    
+  t_begin ~ t_end (sec)
+   347.000000     --   501.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   154.000000    
+  t_begin ~ t_end (sec)
+   347.000000     --   501.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   154.000000    
+  t_begin ~ t_end (sec)
+   347.000000     --   501.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:SAG num:          25 ) ===
+ rcv:    36.2500000       133.300003    
+ epicental distance(km):    830.880676    
+ azimuth(deg):   253.636017     baz(deg):   68.2480774    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   319.000000    
+  t_begin ~ t_end (sec)
+   398.000000     --   717.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   319.000000    
+  t_begin ~ t_end (sec)
+   398.000000     --   717.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   319.000000    
+  t_begin ~ t_end (sec)
+   398.000000     --   717.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   319.000000    
+  t_begin ~ t_end (sec)
+   398.000000     --   717.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:SBR num:          26 ) ===
+ rcv:    33.5000000       130.250000    
+ epicental distance(km):    1218.05212    
+ azimuth(deg):   245.365524     baz(deg):   58.3433037    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   467.000000    
+  t_begin ~ t_end (sec)
+   443.000000     --   910.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   467.000000    
+  t_begin ~ t_end (sec)
+   443.000000     --   910.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   467.000000    
+  t_begin ~ t_end (sec)
+   443.000000     --   910.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   467.000000    
+  t_begin ~ t_end (sec)
+   443.000000     --   910.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:SRN num:          27 ) ===
+ rcv:    36.2000008       136.630005    
+ epicental distance(km):    563.960876    
+ azimuth(deg):   242.236206     baz(deg):   58.8732224    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   217.000000    
+  t_begin ~ t_end (sec)
+   366.000000     --   583.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   217.000000    
+  t_begin ~ t_end (sec)
+   366.000000     --   583.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   217.000000    
+  t_begin ~ t_end (sec)
+   366.000000     --   583.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   217.000000    
+  t_begin ~ t_end (sec)
+   366.000000     --   583.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:TAS num:          28 ) ===
+ rcv:    31.1900005       130.910004    
+ epicental distance(km):    1322.53284    
+ azimuth(deg):   234.354523     baz(deg):   47.9002876    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   507.000000    
+  t_begin ~ t_end (sec)
+   456.000000     --   963.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   507.000000    
+  t_begin ~ t_end (sec)
+   456.000000     --   963.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   507.000000    
+  t_begin ~ t_end (sec)
+   456.000000     --   963.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   507.000000    
+  t_begin ~ t_end (sec)
+   456.000000     --   963.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:TGA num:          29 ) ===
+ rcv:    35.1800003       136.339996    
+ epicental distance(km):    650.385437    
+ azimuth(deg):   234.874954     baz(deg):   51.3766747    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   250.000000    
+  t_begin ~ t_end (sec)
+   377.000000     --   627.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   250.000000    
+  t_begin ~ t_end (sec)
+   377.000000     --   627.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   250.000000    
+  t_begin ~ t_end (sec)
+   377.000000     --   627.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   250.000000    
+  t_begin ~ t_end (sec)
+   377.000000     --   627.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:TGW num:          30 ) ===
+ rcv:    33.9700012       132.929993    
+ epicental distance(km):    981.691345    
+ azimuth(deg):   240.504837     baz(deg):   55.0355949    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   376.000000    
+  t_begin ~ t_end (sec)
+   415.000000     --   791.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   376.000000    
+  t_begin ~ t_end (sec)
+   415.000000     --   791.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   376.000000    
+  t_begin ~ t_end (sec)
+   415.000000     --   791.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   376.000000    
+  t_begin ~ t_end (sec)
+   415.000000     --   791.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:TKD num:          31 ) ===
+ rcv:    32.8199997       131.389999    
+ epicental distance(km):    1172.51978    
+ azimuth(deg):   239.472565     baz(deg):   53.1741867    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   449.000000    
+  t_begin ~ t_end (sec)
+   438.000000     --   887.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   449.000000    
+  t_begin ~ t_end (sec)
+   438.000000     --   887.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   449.000000    
+  t_begin ~ t_end (sec)
+   438.000000     --   887.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   449.000000    
+  t_begin ~ t_end (sec)
+   438.000000     --   887.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:TKO num:          32 ) ===
+ rcv:    31.8899994       131.229996    
+ epicental distance(km):    1248.57043    
+ azimuth(deg):   236.078156     baz(deg):   49.7555580    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   478.000000    
+  t_begin ~ t_end (sec)
+   447.000000     --   925.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   478.000000    
+  t_begin ~ t_end (sec)
+   447.000000     --   925.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   478.000000    
+  t_begin ~ t_end (sec)
+   447.000000     --   925.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   478.000000    
+  t_begin ~ t_end (sec)
+   447.000000     --   925.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:TMC num:          33 ) ===
+ rcv:    32.6100006       130.910004    
+ epicental distance(km):    1222.50305    
+ azimuth(deg):   239.870697     baz(deg):   53.3071175    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   468.000000    
+  t_begin ~ t_end (sec)
+   444.000000     --   912.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   468.000000    
+  t_begin ~ t_end (sec)
+   444.000000     --   912.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   468.000000    
+  t_begin ~ t_end (sec)
+   444.000000     --   912.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   468.000000    
+  t_begin ~ t_end (sec)
+   444.000000     --   912.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:TSA num:          34 ) ===
+ rcv:    33.1800003       132.820007    
+ epicental distance(km):    1042.37292    
+ azimuth(deg):   236.863052     baz(deg):   51.3790321    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   400.000000    
+  t_begin ~ t_end (sec)
+   423.000000     --   823.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   400.000000    
+  t_begin ~ t_end (sec)
+   423.000000     --   823.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   400.000000    
+  t_begin ~ t_end (sec)
+   423.000000     --   823.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   400.000000    
+  t_begin ~ t_end (sec)
+   423.000000     --   823.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:TSK num:          35 ) ===
+ rcv:    36.2099991       140.089996    
+ epicental distance(km):    332.529999    
+ azimuth(deg):   214.426071     baz(deg):   33.1600456    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   128.000000    
+  t_begin ~ t_end (sec)
+   339.000000     --   467.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   128.000000    
+  t_begin ~ t_end (sec)
+   339.000000     --   467.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   128.000000    
+  t_begin ~ t_end (sec)
+   339.000000     --   467.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   128.000000    
+  t_begin ~ t_end (sec)
+   339.000000     --   467.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:TTO num:          36 ) ===
+ rcv:    35.8400002       138.119995    
+ epicental distance(km):    479.978271    
+ azimuth(deg):   229.845520     baz(deg):   47.3959198    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   185.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   541.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   185.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   541.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   185.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   541.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   185.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   541.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:UMJ num:          37 ) ===
+ rcv:    33.5800018       134.029999    
+ epicental distance(km):    927.178650    
+ azimuth(deg):   234.695740     baz(deg):   49.9001122    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   356.000000    
+  t_begin ~ t_end (sec)
+   409.000000     --   765.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   356.000000    
+  t_begin ~ t_end (sec)
+   409.000000     --   765.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   356.000000    
+  t_begin ~ t_end (sec)
+   409.000000     --   765.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   356.000000    
+  t_begin ~ t_end (sec)
+   409.000000     --   765.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:URH num:          38 ) ===
+ rcv:    42.9199982       143.669998    
+ epicental distance(km):    485.325134    
+ azimuth(deg):   14.5358686     baz(deg):   195.506622    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   187.000000    
+  t_begin ~ t_end (sec)
+   357.000000     --   544.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   187.000000    
+  t_begin ~ t_end (sec)
+   357.000000     --   544.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   187.000000    
+  t_begin ~ t_end (sec)
+   357.000000     --   544.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   187.000000    
+  t_begin ~ t_end (sec)
+   357.000000     --   544.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:WJM num:          39 ) ===
+ rcv:    37.4000015       137.029999    
+ epicental distance(km):    474.491638    
+ azimuth(deg):   253.888779     baz(deg):   70.7262650    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   182.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   538.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   182.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   538.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   182.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   538.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   182.000000    
+  t_begin ~ t_end (sec)
+   356.000000     --   538.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:WTR num:          40 ) ===
+ rcv:    34.3699989       136.570007    
+ epicental distance(km):    694.933167    
+ azimuth(deg):   227.969757     baz(deg):   44.6403885    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   267.000000    
+  t_begin ~ t_end (sec)
+   382.000000     --   649.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   267.000000    
+  t_begin ~ t_end (sec)
+   382.000000     --   649.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   267.000000    
+  t_begin ~ t_end (sec)
+   382.000000     --   649.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   267.000000    
+  t_begin ~ t_end (sec)
+   382.000000     --   649.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:YAS num:          41 ) ===
+ rcv:    35.6599998       135.160004    
+ epicental distance(km):    708.597717    
+ azimuth(deg):   243.724747     baz(deg):   59.4956131    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   272.000000    
+  t_begin ~ t_end (sec)
+   383.000000     --   655.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   272.000000    
+  t_begin ~ t_end (sec)
+   383.000000     --   655.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   272.000000    
+  t_begin ~ t_end (sec)
+   383.000000     --   655.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   272.000000    
+  t_begin ~ t_end (sec)
+   383.000000     --   655.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:YSI num:          42 ) ===
+ rcv:    35.1899986       132.880005    
+ epicental distance(km):    914.882263    
+ azimuth(deg):   247.656433     baz(deg):   62.0801697    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   351.000000    
+  t_begin ~ t_end (sec)
+   408.000000     --   759.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   351.000000    
+  t_begin ~ t_end (sec)
+   408.000000     --   759.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   351.000000    
+  t_begin ~ t_end (sec)
+   408.000000     --   759.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   351.000000    
+  t_begin ~ t_end (sec)
+   408.000000     --   759.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:YTY num:          43 ) ===
+ rcv:    34.2799988       131.029999    
+ epicental distance(km):    1111.95483    
+ azimuth(deg):   247.239273     baz(deg):   60.6188049    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   426.000000    
+  t_begin ~ t_end (sec)
+   431.000000     --   857.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   426.000000    
+  t_begin ~ t_end (sec)
+   431.000000     --   857.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   426.000000    
+  t_begin ~ t_end (sec)
+   431.000000     --   857.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   426.000000    
+  t_begin ~ t_end (sec)
+   431.000000     --   857.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ == rcv info (rcv:YZK num:          44 ) ===
+ rcv:    35.0800018       134.460007    
+ epicental distance(km):    796.476501    
+ azimuth(deg):   242.076996     baz(deg):   57.4559135    
+ --- time window No:           1  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   5.00000000    
+ band pass (mHz):   10.0000000       20.0000000    
+ ytd=   1.00000000      num of points   306.000000    
+  t_begin ~ t_end (sec)
+   394.000000     --   700.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           2  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       30.0000000    
+ ytd=   1.00000000      num of points   306.000000    
+  t_begin ~ t_end (sec)
+   394.000000     --   700.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           3  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   2.00000000    
+ band pass (mHz):   10.0000000       35.0000000    
+ ytd=   1.00000000      num of points   306.000000    
+  t_begin ~ t_end (sec)
+   394.000000     --   700.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ --- time window No:           4  ---
+ gvmin gvmax (km/s):   2.00000000       8.50000000    
+ weight:   1.00000000    
+ band pass (mHz):   10.0000000       40.0000000    
+ ytd=   1.00000000      num of points   306.000000    
+  t_begin ~ t_end (sec)
+   394.000000     --   700.000000    
+
+ ntmax:        2048  nyquist:        1025
+ dfrq:   4.88281250E-04  domega:   3.06796166E-03
+ t0_buffer:   300.000000    
+
+
+ Inversion condition
+ MT inversion (1st setp)
+ trM=0 .i.e. Mpp=-(Mrr+Mtt)
+ The number of dimension of parameter space:           6
+ ===== Parameters Search Range ===
+  -1.00000000       1.00000000       2.00000000    
+  -1.00000000       1.00000000       2.00000000    
+  -1.00000000       1.00000000       2.00000000    
+  -1.00000000       1.00000000       2.00000000    
+  -1.00000000       1.00000000       2.00000000    
+   23.0000000       30.0000000       7.00000000    

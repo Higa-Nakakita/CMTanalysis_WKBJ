@@ -1,0 +1,34 @@
+*** INPUT PARAMETERS FOR SURFACE WAVEFORM INVERSION WITH NA (WKBJ version) ***
+* paramters for NA inversion *
+0 15   	: min. and max. mode branches for waveform synthesis
+1		: input wave type (1:DISP, 2:VEL, 3:ACC)
+1               : unit of input data if resp. corrected (1:m, 2:mm, 3:um, 4:nm) 
+4		: number of time windows of observed data
+2.0 8.5		: #1 time window (min & max group vel,(km/s);-1.0=S/SS-time)
+ 5.0		:  #1 weight factor for this time window 
+ 10  20         :  #1 frequency band 1 (in mHz) and weighting factor
+2.0 8.5         : #2 time window (min & max group vel,(km/s);-1.0=S/SS-time)
+ 2.0		:  #2 weight factor for this time window
+ 10  30 	:  #2 frequency band 1 (in mHz) and weighting factor
+2.0 8.5         : #3 time window (min & max group vel,(km/s),-1.0=S/SS-time)
+ 2.0            :  #3 weight factor for this time window
+ 10  35         :  #3 frequency band 1 (in mHz) and weighting factor
+2.0 8.5         : #4 time window (min & max group vel,(km/s),-1.0=S/SS-time)
+ 1.0		:  #4 weight factor for this time window
+ 10  40         :  #4 frequency band 1 (in mHz) 
+1.0 1.0 1.0     : weight factor for each comp (Z,R,T)
+1               : ZRT_ratio (1:ON, othrs:OFF)
+0               : geometrical attenuation correction of misfit (1:ON,0:OFF)
+3.0		: norm index i (L_i norm)
+0               : Index of Inversion flow (0:MT inversion, 1:CMT inversion)
+0               : trM=0 (constrain 0:ON, 1:OFF)
+1               : origT (0:halfd only, 1:dt only, 2:dt & halfd)
+3               : conf_rcv
+4               : conf_path
+5               : conf_fic
+6               : conf_src
+0               : iso_ani 0:iso, 1:ani
+0               : path model (which_struc 0:PREM, 1:Yoshizawa2010, 2:Yoshizawa2010+jma2001)
+0               : src prem 0:iso, 1:ani
+1 20            : Cut computational cost 0:OFF 1:ON(Decrease inf of l summation), inf period
+20              : mode skip (1:ordinary) (must be integer of cource) 
