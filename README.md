@@ -1,7 +1,12 @@
 # CMTanalysis_WKBJ
 
+このままダウンロードして，gcp_grids.py→mk_divdel.outの順に実行すると，mainプログラムで参照されているdiv_del_infoが作成できます．(2026 3/23 比嘉）
+
+
+概要
 WKBJで必要となるtxtファイルdiv_del_infoを作成するためのコード群．WKBJコードで参照するローカルモードの座標決定と線積分の実行（各グリッドの波線通過距離等）で必要となる．
-src_coordinatesに震源位置を入力のち，mk_divdel.outを実行すると，div_del_infoが作成される．なお日本を分割するグリッドは，ローカルモードを保持するそれと対応していなければならない．
+src_coordinatesに震源位置を入力のち，gcp_grids.pyとmk_divdel.outを実行すると，div_del_infoが作成される．なお日本を分割するグリッドは，ローカルモードを保持するそれと対応していなければならない．
+
 
 ファイル説明
 
